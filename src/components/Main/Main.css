@@ -1,7 +1,7 @@
 .main {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-areas: 'preview editor';
+  grid-template-areas: 'area1 area2';
   grid-gap: 20px;
   height: calc(100vh - 80px);
 }
