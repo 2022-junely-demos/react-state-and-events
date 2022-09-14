@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import Main from './components/Main/Main';
 
 function App() {
   const [counter, setCounter] = useState(42);
@@ -10,17 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="counter">{counter}</div>
-      <div className="controls">
-        <button onClick={handleIncrement}>➕</button>
-        <button
-          onClick={() => {
-            setCounter((prevState) => prevState - 1);
-          }}
-        >
-          ➖
-        </button>
-      </div>
+      <Main />
     </div>
   );
 }

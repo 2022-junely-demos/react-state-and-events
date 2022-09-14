@@ -1,0 +1,7 @@
+.editor {
+  grid-area: editor;
+  height: 80%;
+  width: 100%;
+  margin: 20px;
+  border: 1px solid red;
+}
