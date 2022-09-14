@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.counter {
+  font-size: 3rem;
+}
+
+.controls button {
+  margin: 10px;
+}
